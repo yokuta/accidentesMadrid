@@ -1,0 +1,2 @@
+import {handle,requireAdmin,checkOrigin,body,database,json,ApiError} from "@/lib/server";
+export const POST=(req:Request)=>handle(async()=>{checkOrigin(req);await requireAdmin(req);const p=await body(req);if(typeof p.key!=="string"||p.key.length>200)throw new ApiError(400,"La clave no es válida.");await database().prepare("INSERT INTO study_settings (key,value) VALUES ('maps_key',?) ON CONFLICT(key) DO UPDATE SET value=excluded.value").bind(p.key.trim()).run();return json({saved:true});});

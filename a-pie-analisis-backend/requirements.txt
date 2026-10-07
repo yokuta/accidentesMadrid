@@ -1,0 +1,14 @@
+# Python >= 3.10. Instalación: python -m pip install -r requirements.txt
+fastapi>=0.115,<1
+uvicorn>=0.30,<1
+pydantic>=2.8,<3
+duckdb>=1.2,<2
+pandas>=2.1,<4
+numpy>=1.26,<3
+pyproj>=3.6,<4
+scipy>=1.12,<2
+scikit-learn>=1.4,<2
+statsmodels>=0.14,<1
+matplotlib>=3.8,<4
+requests>=2.31,<3
+jupyterlab>=4.2,<5

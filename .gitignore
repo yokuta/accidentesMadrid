@@ -1,0 +1,15 @@
+node_modules/
+.venv/
+.env
+.env.local
+
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+*.duckdb
+*.zip
+
+__pycache__/
+.pytest_cache/
+.wrangler/
+dist/

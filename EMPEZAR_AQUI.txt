@@ -1,0 +1,10 @@
+A pie · Madrid — proyecto completo
+
+a-pie-web/: código de la plataforma. Consulta README.md para instalarlo y arrancarlo.
+a-pie-analisis-backend/: backend FastAPI, cuaderno Jupyter, análisis y guía LEEME.md.
+
+Tu base accidentes_madrid.duckdb no está incluida: el cuaderno está configurado para leerla en tu ordenador.
+La rotación de Street View necesita una clave de Google Maps.
+ACCESO_PRIVADO.txt contiene la clave del panel alojado: conserva ese archivo privado.
+
+Demo: https://a-pie-madrid.jjimenezfernan.chatgpt.site
